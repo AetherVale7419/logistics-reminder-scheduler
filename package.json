@@ -1,0 +1,17 @@
+{
+  "name": "logistics-reminder-scheduler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/reminder_scheduler.ts",
+    "test": "node --experimental-strip-types --test src/reminder_scheduler.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
